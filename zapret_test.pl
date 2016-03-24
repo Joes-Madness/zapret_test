@@ -126,4 +126,5 @@ sub checkUrl {
 			print REPORT $num, "\t", $url, "\n";
 			$logger->error("URL not blocked: ".$url);
 		}
+	}
 }
